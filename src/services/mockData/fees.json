@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "name": "Monthly Tuition",
+    "amount": 1200,
+    "category": "Tuition",
+    "dueDate": "2024-04-01",
+    "recurring": true,
+    "frequency": "monthly"
+  },
+  {
+    "Id": 2,
+    "name": "Textbooks",
+    "amount": 150,
+    "category": "Books",
+    "dueDate": "2024-04-15",
+    "recurring": false,
+    "frequency": "monthly"
+  },
+  {
+    "Id": 3,
+    "name": "Lab Equipment Fee",
+    "amount": 75,
+    "category": "Equipment",
+    "dueDate": "2024-04-01",
+    "recurring": true,
+    "frequency": "monthly"
+  },
+  {
+    "Id": 4,
+    "name": "Activity Fee",
+    "amount": 50,
+    "category": "Activities",
+    "dueDate": "2024-04-01",
+    "recurring": true,
+    "frequency": "monthly"
+  },
+  {
+    "Id": 5,
+    "name": "Library Access",
+    "amount": 25,
+    "category": "Other",
+    "dueDate": "2024-04-01",
+    "recurring": true,
+    "frequency": "monthly"
+  },
+  {
+    "Id": 6,
+    "name": "Annual Membership",
+    "amount": 500,
+    "category": "Other",
+    "dueDate": "2024-12-31",
+    "recurring": true,
+    "frequency": "annually"
+  },
+  {
+    "Id": 7,
+    "name": "Quarterly Assessment",
+    "amount": 200,
+    "category": "Tuition",
+    "dueDate": "2024-06-30",
+    "recurring": true,
+    "frequency": "quarterly"
+  },
+  {
+    "Id": 8,
+    "name": "Technology Fee",
+    "amount": 100,
+    "category": "Equipment",
+    "dueDate": "2024-04-01",
+    "recurring": true,
+    "frequency": "monthly"
+  }
+]

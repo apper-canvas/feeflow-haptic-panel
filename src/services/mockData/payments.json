@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "studentId": 1,
+    "feeId": 1,
+    "amount": 1200,
+    "paymentDate": "2024-03-01",
+    "method": "card",
+    "status": "completed",
+    "reference": "TXN-2024-001"
+  },
+  {
+    "Id": 2,
+    "studentId": 2,
+    "feeId": 1,
+    "amount": 1200,
+    "paymentDate": "2024-03-01",
+    "method": "transfer",
+    "status": "completed",
+    "reference": "TXN-2024-002"
+  },
+  {
+    "Id": 3,
+    "studentId": 1,
+    "feeId": 2,
+    "amount": 150,
+    "paymentDate": "2024-03-15",
+    "method": "cash",
+    "status": "completed",
+    "reference": ""
+  },
+  {
+    "Id": 4,
+    "studentId": 3,
+    "feeId": 1,
+    "amount": 600,
+    "paymentDate": "2024-03-05",
+    "method": "card",
+    "status": "completed",
+    "reference": "TXN-2024-003"
+  },
+  {
+    "Id": 5,
+    "studentId": 4,
+    "feeId": 3,
+    "amount": 75,
+    "paymentDate": "2024-03-10",
+    "method": "transfer",
+    "status": "pending",
+    "reference": "TXN-2024-004"
+  },
+  {
+    "Id": 6,
+    "studentId": 5,
+    "feeId": 1,
+    "amount": 1200,
+    "paymentDate": "2024-03-01",
+    "method": "check",
+    "status": "completed",
+    "reference": "CHK-001"
+  },
+  {
+    "Id": 7,
+    "studentId": 6,
+    "feeId": 4,
+    "amount": 50,
+    "paymentDate": "2024-03-12",
+    "method": "cash",
+    "status": "completed",
+    "reference": ""
+  },
+  {
+    "Id": 8,
+    "studentId": 2,
+    "feeId": 3,
+    "amount": 75,
+    "paymentDate": "2024-03-08",
+    "method": "card",
+    "status": "failed",
+    "reference": "TXN-2024-005"
+  }
+]

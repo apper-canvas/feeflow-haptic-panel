@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 1,
+    "studentId": 1,
+    "fees": [1, 3, 4],
+    "totalAmount": 1325,
+    "dueDate": "2024-04-01",
+    "status": "paid",
+    "createdDate": "2024-03-01"
+  },
+  {
+    "Id": 2,
+    "studentId": 2,
+    "fees": [1, 2],
+    "totalAmount": 1350,
+    "dueDate": "2024-04-15",
+    "status": "partial",
+    "createdDate": "2024-03-01"
+  },
+  {
+    "Id": 3,
+    "studentId": 3,
+    "fees": [1, 5],
+    "totalAmount": 1225,
+    "dueDate": "2024-04-01",
+    "status": "unpaid",
+    "createdDate": "2024-03-05"
+  },
+  {
+    "Id": 4,
+    "studentId": 4,
+    "fees": [3, 4, 5],
+    "totalAmount": 150,
+    "dueDate": "2024-04-01",
+    "status": "unpaid",
+    "createdDate": "2024-03-10"
+  },
+  {
+    "Id": 5,
+    "studentId": 5,
+    "fees": [1, 8],
+    "totalAmount": 1300,
+    "dueDate": "2024-04-01",
+    "status": "paid",
+    "createdDate": "2024-02-28"
+  },
+  {
+    "Id": 6,
+    "studentId": 6,
+    "fees": [4, 5, 8],
+    "totalAmount": 175,
+    "dueDate": "2024-04-01",
+    "status": "partial",
+    "createdDate": "2024-03-12"
+  },
+  {
+    "Id": 7,
+    "studentId": 7,
+    "fees": [1, 3, 4, 5],
+    "totalAmount": 1350,
+    "dueDate": "2024-04-01",
+    "status": "unpaid",
+    "createdDate": "2024-03-15"
+  },
+  {
+    "Id": 8,
+    "studentId": 8,
+    "fees": [1, 2, 8],
+    "totalAmount": 1450,
+    "dueDate": "2024-04-15",
+    "status": "unpaid",
+    "createdDate": "2024-03-10"
+  }
+]
