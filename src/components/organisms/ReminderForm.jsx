@@ -133,18 +133,18 @@ export default function ReminderForm({ isOpen, onClose, onSubmit, initialData = 
     'contactPhone'
 ];
 
-  const emailTemplate = `Dear \{\{studentName\}\},
+const emailTemplate = `Dear {{studentName}},
 
-This is a reminder that your payment for \{\{feeName\}\} in the amount of $\{\{amount\}\} is due on \{\{dueDate\}\}.
+This is a reminder that your payment for {{feeName}} in the amount of \${{amount}} is due on {{dueDate}}.
 
 Please make your payment at your earliest convenience.
 
-If you have any questions, please contact us at \{\{contactPhone\}\}.
+If you have any questions, please contact us at {{contactPhone}}.
 
 Thank you,
 FeeFlow Team`;
 
-  const smsTemplate = `Hi \{\{studentName\}\}, your payment of $\{\{amount\}\} for \{\{feeName\}\} is due \{\{dueDate\}\}. Pay online or call \{\{contactPhone\}\}.`;
+  const smsTemplate = `Hi {{studentName}}, your payment of \${{amount}} for {{feeName}} is due {{dueDate}}. Pay online or call {{contactPhone}}.`;
   const useTemplate = () => {
     const template = formData.type === 'email' ? emailTemplate : smsTemplate;
     setFormData(prev => ({
