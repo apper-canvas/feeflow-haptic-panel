@@ -131,7 +131,6 @@ export default function ReminderForm({ isOpen, onClose, onSubmit, initialData = 
     'dueDate',
     'daysOverdue',
     'contactPhone'
-  ];
 ];
 
   const emailTemplate = `Dear \{\{studentName\}\},
