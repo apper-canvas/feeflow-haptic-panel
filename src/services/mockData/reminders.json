@@ -1,0 +1,58 @@
+[
+  {
+    "Id": 1,
+    "name": "Payment Due Soon - Email",
+    "type": "email",
+    "subject": "Payment Due Reminder - {{feeName}}",
+    "template": "Dear {{studentName}},\n\nThis is a friendly reminder that your payment for {{feeName}} in the amount of ${{amount}} is due on {{dueDate}}.\n\nPlease make your payment at your earliest convenience to avoid any late fees.\n\nIf you have any questions, please contact us.\n\nThank you,\nFeeFlow Team",
+    "isActive": true,
+    "schedule": {
+      "daysBefore": 7,
+      "frequency": "once"
+    },
+    "createdAt": "1/15/2024 8:00:00 AM",
+    "updatedAt": "2024-01-15T08:00:00Z"
+  },
+  {
+    "Id": 2,
+    "name": "Payment Overdue - SMS",
+    "type": "sms",
+    "subject": "",
+    "template": "Hi {{studentName}}, your payment of ${{amount}} for {{feeName}} was due on {{dueDate}}. Please pay ASAP to avoid late fees. Contact us for assistance.",
+    "isActive": true,
+    "schedule": {
+      "daysBefore": -3,
+      "frequency": "once"
+    },
+    "createdAt": "2024-01-20T10:30:00Z",
+    "updatedAt": "2024-01-20T10:30:00Z"
+  },
+  {
+    "Id": 3,
+    "name": "Final Notice - Email",
+    "type": "email",
+    "subject": "FINAL NOTICE - Payment Required for {{feeName}}",
+    "template": "Dear {{studentName}},\n\nThis is a FINAL NOTICE regarding your overdue payment for {{feeName}}.\n\nAmount Due: ${{amount}}\nOriginal Due Date: {{dueDate}}\nDays Overdue: {{daysOverdue}}\n\nImmediate payment is required to avoid suspension of services. Please contact our billing department at your earliest convenience.\n\nPayment can be made online or by calling our office.\n\nThank you for your immediate attention to this matter.\n\nBilling Department\nFeeFlow",
+    "isActive": true,
+    "schedule": {
+      "daysBefore": -14,
+      "frequency": "once"
+    },
+    "createdAt": "2024-02-01T09:15:00Z",
+    "updatedAt": "2024-02-01T09:15:00Z"
+  },
+  {
+    "Id": 4,
+    "name": "Weekly Payment Reminder - SMS",
+    "type": "sms",
+    "subject": "",
+    "template": "Reminder: {{studentName}}, your {{feeName}} payment of ${{amount}} is due {{dueDate}}. Pay online or call us.",
+    "isActive": false,
+    "schedule": {
+      "daysBefore": 3,
+      "frequency": "weekly"
+    },
+    "createdAt": "2024-02-10T14:20:00Z",
+    "updatedAt": "2024-02-15T16:45:00Z"
+  }
+]

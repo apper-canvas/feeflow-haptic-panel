@@ -114,17 +114,27 @@ const Payments = () => {
   if (loading) return <Loading type="table" />;
   if (error) return <Error message={error} onRetry={loadData} />;
 
-  return (
+return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-2xl font-bold text-gray-900 font-display">Payments</h1>
           <p className="text-gray-600 mt-1">Track and manage all payment transactions</p>
         </div>
-        <Button onClick={handleAddPayment} className="inline-flex items-center space-x-2">
-          <ApperIcon name="Plus" className="h-4 w-4" />
-          <span>Record Payment</span>
-        </Button>
+        <div className="flex items-center space-x-3">
+          <Button 
+            onClick={() => window.location.href = '/reminders'} 
+            variant="outline"
+            className="inline-flex items-center space-x-2"
+          >
+            <ApperIcon name="Settings" className="h-4 w-4" />
+            <span>Reminder Config</span>
+          </Button>
+          <Button onClick={handleAddPayment} className="inline-flex items-center space-x-2">
+            <ApperIcon name="Plus" className="h-4 w-4" />
+            <span>Record Payment</span>
+          </Button>
+        </div>
       </div>
 
       <SearchBar

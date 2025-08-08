@@ -7,18 +7,20 @@ import Students from "@/components/pages/Students";
 import Fees from "@/components/pages/Fees";
 import Payments from "@/components/pages/Payments";
 import Invoices from "@/components/pages/Invoices";
+import RemindersConfig from "@/components/pages/RemindersConfig";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Routes>
+<Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Dashboard />} />
             <Route path="students" element={<Students />} />
             <Route path="fees" element={<Fees />} />
             <Route path="payments" element={<Payments />} />
             <Route path="invoices" element={<Invoices />} />
+            <Route path="reminders" element={<RemindersConfig />} />
           </Route>
         </Routes>
         
